@@ -21,6 +21,7 @@ export const SignUp = () => {
         fname,
         lname,
         email,
+        password,
       }),
     })
       .then((res) => res.json())
